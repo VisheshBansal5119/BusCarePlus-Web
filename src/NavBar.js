@@ -16,19 +16,19 @@ class NavBar extends Component {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-        <Link to="/home"> <a class="nav-link " aria-current="page" href="#">Home</a></Link>
+        <Link to="/home"> <a class="nav-link " aria-current="page" href="home">Home</a></Link>
         </li>
         <li class="nav-item">
-        <Link to="/home/safety"><a class="nav-link" href="#">Safety</a></Link>
+        <Link to="/home/safety"><a class="nav-link" href="safety">Safety</a></Link>
         </li>
         <li class="nav-item">
-        <Link to="/home/maintenance"><a class="nav-link" href="#">Maintenance</a></Link>
+        <Link to="/home/maintenance"><a class="nav-link" href="maintenance">Maintenance</a></Link>
         </li>
         <li class="nav-item">
-        <Link to="/home/map"><a class="nav-link" href="#">Map</a></Link>
+        <Link to="/home/map"><a class="nav-link" href="map">Map</a></Link>
         </li>
         <li class="nav-item">
-        <Link to="/"><a class="nav-link" href="#">Sign Out</a></Link>
+        <Link to="/"><a class="nav-link" href="signedout">Sign Out</a></Link>
         </li>
       </ul>
 
